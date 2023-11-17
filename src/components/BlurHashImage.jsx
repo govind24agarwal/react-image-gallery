@@ -30,11 +30,11 @@ const BlurHashImage = ({src, alt, srcSet, height, width, sizes, title, onLoad, o
         // loading="lazy"
       />
     :
-      <div className="rounded-t-lg overflow-hidden">
+      <div className="overflow-hidden">
         <Blurhash
           hash="LrJk7Vt7-nt6~WofWUj[9vjZIpWB"
           width="100%"
-          height="80vh"
+          height="46vw"
           resolutionX={32}
           resolutionY={32}
           punch={1}
