@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Blurhash } from "react-blurhash";
 
 const BlurHashImage = ({src, alt, srcSet, height, width, sizes, title, onLoad, onError, loading}) => {
@@ -34,7 +34,7 @@ const BlurHashImage = ({src, alt, srcSet, height, width, sizes, title, onLoad, o
         <Blurhash
           hash="LrJk7Vt7-nt6~WofWUj[9vjZIpWB"
           width="100%"
-          height="145px"
+          height="80vh"
           resolutionX={32}
           resolutionY={32}
           punch={1}
