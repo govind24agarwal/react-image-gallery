@@ -34,7 +34,7 @@ const BlurHashImage = ({src, alt, srcSet, height, width, sizes, title, onLoad, o
         <Blurhash
           hash="LrJk7Vt7-nt6~WofWUj[9vjZIpWB"
           width="100%"
-          height="46vw"
+          height="70vh"
           resolutionX={32}
           resolutionY={32}
           punch={1}
