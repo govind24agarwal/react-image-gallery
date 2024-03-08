@@ -11,7 +11,7 @@ const RightNav = React.memo(({ disabled, onClick }) => {
       onClick={onClick}
       aria-label="Next Slide"
     >
-      <SVG icon="right" viewBox="6 0 12 24" />
+      <SVG icon="right" viewBox="0 0 24 24" />
     </button>
   );
 });

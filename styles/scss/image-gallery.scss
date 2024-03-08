@@ -52,7 +52,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
 .image-gallery-fullscreen-button,
 .image-gallery-play-button {
   bottom: 0;
-  padding: 20px;
+  padding-bottom: 20px;
 
   .image-gallery-svg {
     height: 28px;
@@ -88,7 +88,7 @@ $ig-shadow: 0 2px 2px lighten($ig-black, 10%);
 
 .image-gallery-left-nav,
 .image-gallery-right-nav {
-  padding: 50px 10px;
+  padding: 50px 0px;
   top: 50%;
   transform: translateY(-50%);
 
