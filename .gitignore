@@ -4,7 +4,7 @@ npm-debug.log
 .notes
 .idea
 
-build/
+# build/
 example/example.js
 example/example.js.map
 demo/

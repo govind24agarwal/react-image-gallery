@@ -1,5 +1,6 @@
 import React from "react";
 import { bool, func, string } from "prop-types";
+import BlurHashImage from "./BlurHashImage";
 
 const defaultProps = {
   description: "",
@@ -34,8 +35,7 @@ const Item = React.memo((props) => {
 
   return (
     <React.Fragment>
-      <img
-        className="image-gallery-image"
+      <BlurHashImage
         src={itemSrc}
         alt={originalAlt}
         srcSet={srcSet}
